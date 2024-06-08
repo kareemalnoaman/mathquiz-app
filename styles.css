@@ -31,8 +31,14 @@ nav ul li a {
   text-decoration: none;
 }
 
-main {
+/* main {
   padding: 20px;
+} */
+.main #p-link {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 h2 {
   margin-top: 70px;
