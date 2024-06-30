@@ -1,0 +1,7 @@
+{
+    "php.docblock.classSnippet": {
+        "@author": "Kareem Alnoaman",
+        "@copyright": "(c) $CURRENT_YEAR",
+    },
+    "php.completion.autoimport-docblock": "auto-import"
+}

@@ -1,30 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/contact.css">
+
 </head>
+
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="/quizzme.html"><b>QuizzME</b></li>
                 <li><a href="/index.html"><b>Home</b></li>
                 <li><a href="/about.html"><b>About</b></a></li>
-                <li><a href="/login.html"><b>Login</b></a></li>
-                <li><a href="/register.html"><b>Register</b></a></li>
+                <li><a href="/help.html"><b>Help</b></a></li>
+                <div class="float-right">
+                    <li><a href="/login.html"><b>Login</b></a></li>
+                    <li><a href="/register.html"><b>Register</b></a></li>
+                </div>
             </ul>
         </nav>
+
     </header>
-    <main class="main">
-        <p>Welcome to QuizzME</p>
-        <p id="landing">Landing Page</p>
+    <main class="timer-container">
+        <section id="knowledge-sec">
+            <lightning-card icon-name="standard:account" variant="base">
+                <div slot="title">
+                    <h1>QuizzME</h1>
+                    <p>
+                        <center>Test your knowledge with our quizzes</center>
+                    </p>
+                </div>
+                <div slot="actions">
+
+                </div>
+                <div slot="footer">
+
+                </div>
+                <div>
+                    <!-- Card Body  -->
+
+                </div>
+            </lightning-card>
+            <br>
+        </section>
+
+        <div class="bg-image"></div>
+
+        <section class="timer-sec">
+            <div>
+                <div id="timer">10:00</div>
+                <button id="startQuiz">Start Quiz</button>
+            </div>
+
+        </section>
     </main>
-    
     <footer>
-         <p>© 2024 QuizzME</p>
+        <p>© 2024 QuizzME</p>
     </footer>
+    <script src="/js/timer.js"></script>
 </body>
+
 </html>

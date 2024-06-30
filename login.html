@@ -1,36 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/contact.css">
 </head>
-<body>
 
+<body>
     <header>
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="/quizzme.html"><b>QuizzME</b></li>
                 <li><a href="/index.html"><b>Home</b></li>
                 <li><a href="/about.html"><b>About</b></a></li>
-                <li><a href="/login.html"><b>Login</b></a></li>
-                <li><a href="/register.html"><b>Register</b></a></li>
+                <li><a href="/help.html"><b>Help</b></a></li>
+                <div class="float-right">
+                    <li><a href="/login.html"><b>Login</b></a></li>
+                    <li><a href="/register.html"><b>Register</b></a></li>
+                </div>
             </ul>
         </nav>
     </header>
-    <h2>Login</h2>
-    <main class="main">
-        <form action="/login" method="post">
-            <input type="text" name="username" placeholder="Username" required><br>
-            <input type="password" name="password" placeholder="Password" required><br>
-            <button class="btn" type="submit">Login</button>
-            <P id="p-link">No account <a href="/register.html">Register</a> </P>
-        </form>
+    <div class="bg-image"></div>
+    <!-- <h2>Login</h2> -->
+    <main class="main-panel">
+        <section id="contact" class="contact">
+            <div class="container">
+                <h1>Login</h1>
+                <form id="loginForm" action="/login.html" method="post">
+                    <label for="userName">Username:</label>
+                    <input type="text" id="userName" name="userName" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button id="btn" type="submit">Login</button>
+                    No account <a href="/register.html">register</a>
+                </form>
+            </div>
+        </section>
+
     </main>
-    
+
+    <script>
+        // Change color of link
+        let btn = document.querySelector('#btn');
+
+        btn.addEventListener('click', () => {
+            alert('Form submitted.');
+        });
+
+    </script>
     <footer>
-         <p>© 2024 QuizzME</p>
+        <p>© 2024 QuizzME</p>
     </footer>
 </body>
+
 </html>
