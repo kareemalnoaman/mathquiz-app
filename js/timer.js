@@ -1,11 +1,11 @@
 let timer;
-let timeLeft = 10 * 60; // 10 minutes in seconds
+let timeLeft = 3 * 60; // 10 minutes in seconds
 const timerDisplay = document.getElementById('timer');
 const startButton = document.getElementById('startQuiz');
 
 function startQuiz() {
     clearInterval(timer); // Clear any existing timer
-    timeLeft = 10 * 60; // Reset time left
+    timeLeft = 3 * 60; // Reset time left
     updateTimerDisplay(timeLeft);
 
     timer = setInterval(() => {
@@ -27,7 +27,7 @@ function updateTimerDisplay(seconds) {
 }
 
 function resetTimer() {
-    timeLeft = 10 * 60;
+    timeLeft = 3 * 60;
     updateTimerDisplay(timeLeft);
 }
 

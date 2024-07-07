@@ -11,13 +11,14 @@ body {
     height: 100vh;
 }
 
+
 #knowledge-sec {
-    background-color: #0D3B66;
+    background-color: #6f8fad;
     color: white;
     padding: 20px;
     margin-top: 0px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 4px rgb(8, 3, 3);
     width: 500px;
     height: 300px;
 }
@@ -30,15 +31,6 @@ body {
     margin-top: 20px;
 }
 
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #0D3B66;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
 
 #timer {
     text-align: center;
@@ -65,10 +57,66 @@ button {
     justify-content: center;
 
 } */
+#btn-login {
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #030e19;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    position: inherit;
+    margin-top: 20px;
+    margin-left: 35%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.btn-register {
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #030e19;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    position: inherit;
+    margin-left: 35%;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#btn-help {
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #030e19;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    position: inherit;
+    margin-top: 20px;
+    margin-left: 35%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
 
 #startQuiz {
-    background-color: #010306;
-    align-items: center;
+    width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #030e19;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 
 .timer-sec {
@@ -133,7 +181,7 @@ header .navbar li {
 
 }
 
-h1 {
+h2 {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -144,7 +192,7 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     width: 500px;
-    height: 300px;
+    height: 400px;
 
 }
 
@@ -166,6 +214,7 @@ textarea {
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    height: 20px;
 }
 
 
@@ -174,7 +223,10 @@ button:hover {
     background-color: #1189bc;
 }
 
+
+
 #response {
+    color: honeydew;
     margin-top: 20px;
     text-align: center;
 }
