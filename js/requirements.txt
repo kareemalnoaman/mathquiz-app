@@ -1,0 +1,17 @@
+// This is the mathquizz app requirements
+/**
+ * @package mathquizz
+* Ahmed's code
+ // <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    
+       // $('#signupForm').on('submit', function(e) {
+            //e.preventDefault();
+* });
+
+*/
+
+
+
+
+
+    
